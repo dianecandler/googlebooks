@@ -1,0 +1,17 @@
+Starting:
+    ☐ Git repository
+    ☐ Clone repository
+    ☐ npm init
+    ☐ download packages
+        ☐ dependencies
+            ☐ express
+            ☐ mongoose
+        ☐ dev-dependencies
+            ☐ nodemon
+            ☐ if-env
+            ☐ concurrently
+    ☐ Add React in client folder 
+        ☐ npx create-react-app client
+    ☐ Add server.js
+        ☐ connect Express, Mongoose, PORT
+        ☐ add routes @today
