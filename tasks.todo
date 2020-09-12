@@ -1,4 +1,4 @@
-Starting:
+Back-End:
     ☐ Git repository
     ☐ Clone repository
     ☐ npm init
@@ -15,3 +15,24 @@ Starting:
     ☐ Add server.js
         ☐ connect Express, Mongoose, PORT
         ☐ add routes @today
+    ☐ Add models  
+        ☐ Mongoose schema
+            ☐ created tables
+    ☐ Add routes
+        ☐ HTML route - connect to Client folder
+        ☐ API route - connect to Controller folder
+    ☐ Add Controller
+        ☐ CRUD for database
+
+Front-End:
+    ☐ add Google icon to client index.html
+    ☐ set-up file
+        ☐ Util, pages, components folders
+            ☐ Util host API.js file    
+            ☐ Pages host Save and Search page
+            ☐ Components host a form, list and nav folders
+                ☐ Form has formbtn.js, index.js, input.js
+                ☐ List has deletebtn, list.js, listitem.js, savebtn.js, index.js
+                ☐ Nave has index.js, nav.js
+                
+    
