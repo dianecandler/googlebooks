@@ -11,7 +11,9 @@ export default class search extends Component {
 		this.setState({ value: book });
 	};
 	searchBook = (queryString) => {
-		Api.googleBooks(queryString).then((response) => console.log(response));
+		Api.googleBooks(queryString).then((response) => 
+			console.log(response)
+			);
 	};
 	valueSubmit = (event) => {
 		event.preventDefault();
