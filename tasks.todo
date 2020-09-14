@@ -25,7 +25,7 @@ Back-End:
         ☐ CRUD for database
 
 Front-End:
-    ☐ add Google icon to client index.html
+    ☐ NEED to add Google icon to client index.html
     ☐ set-up file
         ☐ Util, pages, components folders
             ☐ Util host API.js file    
@@ -33,6 +33,6 @@ Front-End:
             ☐ Components host a form, list and nav folders
                 ☐ Form has formbtn.js, index.js, input.js
                 ☐ List has deletebtn, list.js, listitem.js, savebtn.js, index.js
-                ☐ Nave has index.js, nav.js
+                ☐ Nav has index.js
                 
     
