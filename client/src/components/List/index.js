@@ -1,41 +1,28 @@
 // show data receiving from parent
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { Col, Row, Container } from "./components/Grid";
+import React from 'react'
 
-function Detail(props) {
-//   const [book, setBook] = useState({})
-
-  // When this component mounts, grab the book with the _id of props.match.params.id
-  // e.g. localhost:3000/books/599dcb67f0f16317844583fc
-//   const {id} = useParams()
-//   useEffect(() => {
-//     API.getBook(id)
-//       .then(res => setBook(res.data))
-//       .catch(err => console.log(err));
-//   }, [])
-
+export default function index(props) {
   return (
-      <Container fluid>
-        <Row>
-          <Col size="md-10 md-offset-1">
-            <article>
-              <h1>Synopsis</h1>
-              <p>
-                {book.synopsis}
-              </p>
-            </article>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-2">
-            <Link to="/">← Back to Authors</Link>
-          </Col>
-        </Row>
-      </Container>
-    );
-  }
+    <div>
+      <h3>{props.title}</h3>
+      <h6>Written by {props.author}</h6>
+      <div className="row">
+        <div className="col-3" >
+          <img src={props.image} />
+        </div>
+        <div className="col-9" >
+          <p>{props.description} </p>
+    <a href={props.url} target="_blank">{props.url}</a>
+        </div>
+      </div>
 
-
-export default Detail;
-
+    </div>
+  )
+}
+/* 
+  `title` - Title of the book from the Google Books API
+* `authors` - The books's author(s) as returned from the Google Books API
+* `description` - The book's description as returned from the Google Books API
+* `image` - The Book's thumbnail image as returned from the Google Books API
+* `link` - The Book's information link as returned from the Google Books API
+*/

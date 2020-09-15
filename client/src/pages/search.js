@@ -1,5 +1,7 @@
+// Using Class Component on Search.js and Hooks with Saved.js
 import React, { Component } from 'react';
 import Api from '../utils/Api';
+import List from '../components/List';
 
 export default class search extends Component {
 	state = {
@@ -10,9 +12,23 @@ export default class search extends Component {
 		const book = event.target.value;
 		this.setState({ value: book });
 	};
+	newBook = bookData => {
+		return {
+			_id: bookData.id,
+			title: bookData.volumeInfo.title,
+			author: bookData.volumeInfo.authors,
+			image: bookData.volumeInfo.imageLinks.thumbnail,
+			description: bookData.volumeInfo.description,
+			url: bookData.volumeInfo.previewLink
+		}
+	}
 	searchBook = (queryString) => {
 		Api.googleBooks(queryString).then((response) => 
-			console.log(response)
+			// console.log(response);
+		this.setState({books: response.data.items.map(book => 
+				this.newBook(book),
+				console.log(this.state.books)
+			)})	
 			);
 	};
 	valueSubmit = (event) => {
@@ -41,6 +57,18 @@ export default class search extends Component {
 						</button>
 					</form>
 				</nav>
+				<div className="results">
+					<div>
+						{this.state.books.map(book =>
+							{
+								return(
+									<List title={book.title} author={book.author} description={book.description} url={book.url} image={book.image}/>
+
+								)
+							}
+							)}
+					</div>
+				</div>
 			</div>
 		);
 	}
