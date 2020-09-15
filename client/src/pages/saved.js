@@ -1,12 +1,11 @@
 // Using Class Component on Search.js and Hooks with Saved.js
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class saved extends Component {
-    render() {
-        return (
-            <div>
-                Saved
-            </div>
-        )
-    }
+export default function Saved() {
+    return (
+        <div>
+         Save   
+        </div>
+    )
 }
+
