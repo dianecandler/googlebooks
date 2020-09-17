@@ -8,8 +8,9 @@ export default function index(props) {
 
   useEffect(() => console.log('using use effect', []));
   
-  savedBook = book => {
-    Api.saveBook(book).then(bookSaved => this.setSaveState.concat([bookSaved])) 
+  function savedBook(book) {
+    console.log('saving this book ' + book);
+    Api.saveBook(book);
   }
 
   return (
@@ -23,7 +24,7 @@ export default function index(props) {
        <button className="btn btn-success text-light">
          <a href={props.url} target="_blank" className="text-light">View</a>
        </button>
-       <button className="btn btn-info ml-2" onClick={this.savedBook()}>
+       <button className="btn btn-info ml-2" onClick={savedBook(props)}>
         Save
        </button>
 
