@@ -16,10 +16,10 @@ export default class search extends Component {
 		return {
 			_id: bookData.id,
 			title: bookData.volumeInfo.title,
-			author: bookData.volumeInfo.authors,
+			authors: bookData.volumeInfo.authors,
 			image: bookData.volumeInfo.imageLinks.thumbnail,
 			description: bookData.volumeInfo.description,
-			url: bookData.volumeInfo.previewLink
+			link: bookData.volumeInfo.previewLink
 		}
 	}
 	searchBook = (queryString) => {
@@ -62,7 +62,7 @@ export default class search extends Component {
 						{this.state.books.map(book =>
 							{
 								return(
-									<List title={book.title} author={book.author} description={book.description} url={book.url} image={book.image}/>
+									<List key={book._id} book={book} title={book.title} author={book.authors} description={book.description} url={book.link} image={book.image}/>
 
 								)
 							}
