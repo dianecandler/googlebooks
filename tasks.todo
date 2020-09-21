@@ -35,4 +35,7 @@ Front-End:
                 ☐ List has deletebtn, list.js, listitem.js, savebtn.js, index.js
                 ☐ Nav has index.js
                 
-    
+    ☐ set up alt path to store in Heroku.  
+       ✔ npm i dotenv @done (9/21/2020, 12:15:46 PM)
+       ✔ create .env file (secret information, key, password) @done (9/21/2020, 12:15:48 PM)
+        ☐ Server.js add require("dotenv").config()

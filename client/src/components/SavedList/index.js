@@ -27,19 +27,17 @@ export default function index(this.props) {
 
 import React, { Component } from 'react';
 import Api from '../../utils/Api';
+import DeleteBtn from './DeleteBtn';
 
 export default class index extends Component {
 
-  state = {savedBooks:[]}
 
-  componentDidMount() {
-    Api.getSaved().then(savedBooks => this.setState({savedBooks:savedBooks})).catch(err => console.log(err));
-  }
+  deleteBook = id => {
+    Api.deleteBook(id)
+        .then(res => console.log(res))
+        .catch(err => console.log(err));
 
-  handleSave = book => {
-    console.log(book);
-    Api.saveBook(book).then(savedBooks => this.setState({savedBooks:savedBooks})).catch(err => console.log(err));
-  }
+}
 
   render() {
     return (
@@ -53,10 +51,10 @@ export default class index extends Component {
        <button className="btn btn-success text-light">
          <a href={this.props.link} target="_blank" className="text-light">View</a>
        </button>
-       <button className="btn btn-info ml-2" onClick={() => this.handleSave(this.props.book)}>
+       {/* <button className="btn btn-info ml-2" onClick={() => this.handleSave(this.props.book)}>
         Save
-       </button>
-
+       </button> */}
+       <DeleteBtn onClick={() => this.deleteBook(this.props.id)}>Delete</DeleteBtn>
        </div>
        </div>
 

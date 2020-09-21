@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 // Set up table - Mongoose schema
 const bookSchema = new Schema({
-  _id: { type: Number},
+  _id: { type: String},
   title: { type: String},
   authors: { type: Array},
   description: { type: String},

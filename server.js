@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+// added after setting up Mongodb atlas.cloud to save file in Heroku
+require("dotenv").config();
 
 const mongoose = require("mongoose");
 
@@ -20,7 +22,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebookssearch", { useNewUrlParser: true,
+mongoose.connect(process.env.MONGOURL, { useNewUrlParser: true,
 useFindAndModify: false, useUnifiedTopology: true }
 );
 
