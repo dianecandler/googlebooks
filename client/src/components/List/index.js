@@ -51,7 +51,7 @@ export default class index extends Component {
        </div>
        <div className="col-4" > 
        <button className="btn btn-success text-light">
-         <a href={this.props.link} target="_blank" className="text-light">View</a>
+         <a href={this.props.url} target="_blank" className="text-light">View</a>
        </button>
        <button className="btn btn-info ml-2" onClick={() => this.handleSave(this.props.book)}>
         Save
