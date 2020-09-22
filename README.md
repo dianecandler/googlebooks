@@ -1,4 +1,4 @@
-# googlebooks
+# Google Books - Search, Save List, View Google Book on new Tab, Delete from Saved List
 MERN stack - Google API - Books
 
 *Heroku: https://dashboard.heroku.com/apps/dianecandler-googlebooks
@@ -85,21 +85,3 @@ Built this program without any code.  The goal is to allow users to search, stor
 * Deploy your application to Heroku once complete. **You must use Create React App** and current versions of React and React-Router-Dom for this assignment.
 
 - - -
-
-### Bonus Live Updates to Saved Books
-
-* Use React routing and [socket.io](http://socket.io) to create a notification or a component that triggers whenever a user saves an book. Your message should include the title of the saved book.
-
-  * Say you have multiple browsers open, each one visiting your site. If you save an book in one browser, then all of your browsers should notify you that a new book was saved.
-
-  * [Socket.io NPM package](https://www.npmjs.com/package/socket.io)
-
-### Reminder: Submission on BCS
-
-* **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-
-- - -
-
-### Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
