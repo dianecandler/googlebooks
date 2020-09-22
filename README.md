@@ -1,6 +1,31 @@
 # googlebooks
 MERN stack - Google API - Books
 
+*Heroku: https://dashboard.heroku.com/apps/dianecandler-googlebooks
+*GitHub: https://github.com/dianecandler/googlebooks
+
+# Created MERN application
+Built this program without any code.  The goal is to allow users to search, store, delete google books.  In addition each books should allow users to view the google book content in a new browser tab.
+
+# Technologies Used
+*  MongoDB and Mongoose
+*  Express Server
+*  React
+*  Node.js
+*  CSS Bootstrap
+*  Postman and Robo 3T
+*  GitHub, Heroku, Atlas Cloud
+
+![Atlas Cloud](/AtlasCloud_Heroku.PNG)
+
+
+![Screen Shots](GoogleBooksAppImages.pdf)
+
+
+## Lessons Learned
+* Challenged to refresh page once a book was deleted.  Error was in trying to refresh the page once a book was deleted.  The challenge was in requiring the child to request to the parent.  Solution was to give the parent the task.
+* Chased the VIEW function before finally realizing a syntax error.  Used link instead of url.
+
 
 ### Instructions
 
