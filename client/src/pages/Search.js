@@ -62,7 +62,7 @@ export default class search extends Component {
 						{this.state.books.map(book =>
 							{
 								return(
-									<List key={book._id} book={book} title={book.title} author={book.authors} description={book.description} url={book.link} image={book.image}/>
+									<List key={book._id} book={book} title={book.title} authors={book.authors} description={book.description} url={book.link} image={book.image}/>
 
 								)
 							}
