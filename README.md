@@ -24,3 +24,10 @@
 
 ![Screen Shots](GoogleBooksAppImages.pdf)
 
+# Thank you
+
+***Your time is valuable. Thank you for taking time to review this program. Feedback is welcome at dianedcandler@gmail.com.***
+
+## Visit my Portfolio
+
+https://dianecandler.herokuapp.com/
