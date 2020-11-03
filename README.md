@@ -21,8 +21,9 @@
 
 ![Atlas Cloud](/AtlasCloud_Heroku.PNG)
 
+![gbooksearch](https://user-images.githubusercontent.com/63519355/98034329-6e91ed80-1ddc-11eb-91ae-8564231c749d.JPG)
 
-![Screen Shots](GoogleBooksAppImages.pdf)
+![gbooksave](https://user-images.githubusercontent.com/63519355/98034340-72be0b00-1ddc-11eb-9b5e-f3a3db7644c6.JPG)
 
 # Thank you
 
