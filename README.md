@@ -29,6 +29,11 @@
 
 ***Your time is valuable. Thank you for taking time to review this program. Feedback is welcome at dianedcandler@gmail.com.***
 
-## Visit my Portfolio
 
-https://dianecandler.herokuapp.com/
+# Thank you for visiting!
+
+### View my Portfolio for more Applications
+**https://dianecandler.herokuapp.com/**
+
+- - -
+© 2020 Diane Candler. All Rights Reserved.
