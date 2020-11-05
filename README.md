@@ -6,7 +6,7 @@
 ## Where to find this application?
 
 * Heroku: [https://dashboard.heroku.com/apps/dianecandler-googlebooks](https://dashboard.heroku.com/apps/dianecandler-googlebooks)
-* GitHub: (https://github.com/dianecandler/googlebooks)
+* GitHub: [https://github.com/dianecandler/googlebooks](https://github.com/dianecandler/googlebooks)
 
 
 # Technologies Used
@@ -31,7 +31,7 @@
 
 
 ### View my Portfolio for more Applications
-**https://dianecandler.herokuapp.com/**
+**[https://dianecandler.herokuapp.com/](https://dianecandler.herokuapp.com/)**
 
 - - -
 © 2020 Diane Candler. All Rights Reserved.
