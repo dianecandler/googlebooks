@@ -5,8 +5,8 @@
 
 ## Where to find this application?
 
-* Heroku: https://dashboard.heroku.com/apps/dianecandler-googlebooks
-* GitHub: https://github.com/dianecandler/googlebooks
+* Heroku: ![https://dashboard.heroku.com/apps/dianecandler-googlebooks](https://dashboard.heroku.com/apps/dianecandler-googlebooks)
+* GitHub: ![https://github.com/dianecandler/googlebooks](https://github.com/dianecandler/googlebooks)
 
 
 # Technologies Used
@@ -29,8 +29,6 @@
 
 ***Your time is valuable. Thank you for taking time to review this program. Feedback is welcome at dianedcandler@gmail.com.***
 
-
-# Thank you for visiting!
 
 ### View my Portfolio for more Applications
 **https://dianecandler.herokuapp.com/**
