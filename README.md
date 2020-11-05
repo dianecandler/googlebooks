@@ -5,8 +5,8 @@
 
 ## Where to find this application?
 
-* Heroku: ![https://dashboard.heroku.com/apps/dianecandler-googlebooks](https://dashboard.heroku.com/apps/dianecandler-googlebooks)
-* GitHub: ![https://github.com/dianecandler/googlebooks](https://github.com/dianecandler/googlebooks)
+* Heroku: (https://dashboard.heroku.com/apps/dianecandler-googlebooks)
+* GitHub: (https://github.com/dianecandler/googlebooks)
 
 
 # Technologies Used
