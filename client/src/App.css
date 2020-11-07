@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+#mainBackground {
+  background-image: url('./books.jpg');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

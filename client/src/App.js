@@ -5,17 +5,15 @@ import Search from './pages/Search';
 import Nav from './components/Nav';
 // import List from './components/List';
 import './App.css';
-// import 'books' from './components/books.jpg';
 
 function App() {
     return (
       <Router>
         <div>
           <Nav />
-          <div className="jumbotron text-center">
+          <div className="jumbotron text-center text-light" id="mainBackground">
           <h2>Google Book Search</h2>
           <h5>Search for and Save books of interest</h5>
-          {/* <img src={books} alt="books"></img> */}
           </div>
           <Switch>
             <Route exact path="/" component ={Search}/>
